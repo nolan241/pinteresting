@@ -1,5 +1,5 @@
 # left of at
-https://onemonth.com/courses/one-month-rails/steps/styling-with-jquery-masonry-pinteresting
+https://onemonth.com/courses/one-month-rails/steps/pins-show-page
 
 
 Did not complete the upload to S3 part
