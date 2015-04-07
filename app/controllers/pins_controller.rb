@@ -11,7 +11,7 @@ class PinsController < ApplicationController
 # Destroy = destroy
 
   def index
-    @pins = Pin.all.order("created_at DESC").limit(20)
+    @pins = Pin.all.order("created_at DESC").paginate(:page => params[:page], :per_page => 8)
   end
 
   def show
